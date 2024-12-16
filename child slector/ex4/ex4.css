@@ -1,0 +1,26 @@
+div {
+    background-color: rgb(200, 174, 170);
+    width: 25px;
+    height: 25px;
+    display:inline-block;
+    border: 1px solid #ccc;
+}
+/*العنصر ال 5
+/*div:nth-child(5) {
+    background-color: rgb(114, 38, 26);
+}*/
+    /*الكل باستثناء ال 5 الاولى */
+/*div:nth-child(n+6) {
+    background-color: rgb(114, 38, 26);
+}*/
+/*اخر 5 عناصر 
+/*div:nth-child(-n+5) {
+    background-color: rgb(114, 38, 26);
+}*/
+/*كل رابع 
+/*div:nth-child(4n+4) {
+    background-color: rgb(114, 38, 26);
+}*/
+/*div:nth-last-child(2) {
+    background-color: rgb(114, 38, 26);
+}*/

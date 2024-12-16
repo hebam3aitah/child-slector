@@ -1,0 +1,12 @@
+div {
+    background-color: rgb(255, 34, 0);
+    width: 25px;
+    height: 25px;
+    display:inline-block;
+    border: 1px solid #ccc;
+}
+div:nth-child(even)
+{
+    background-color: rgb(21, 0, 255);
+    margin-bottom: 1%;
+}
